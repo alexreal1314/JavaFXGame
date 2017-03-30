@@ -1,0 +1,8 @@
+.root {
+    -fx-background-image: url("/resources/gradient_welcome.jpg");
+}
+
+#button {
+    -fx-background-color: darkgray;
+    -fx-font-size: 16;
+}

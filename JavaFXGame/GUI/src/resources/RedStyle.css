@@ -1,0 +1,73 @@
+#screenPane {
+    -fx-background-image: url("/resources/Red_background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#performButton, #quitGameButton, #prevButton, #nextButton, #skin, #replayGame, #exitButton {
+    -fx-font-size: 12px;
+    -fx-background-color: red;
+    -fx-border-color: black;
+
+    -fx-opacity: 80%;
+    -fx-text-fill: whitesmoke;
+    -fx-font-weight: bold;
+    -fx-font-family: "Lucida Sans Unicode", Lucida Grande, sans-serif;
+    -fx-fill: #548081;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#loadGameButton, #startGameButton, #restartButton{
+    -fx-opacity: 80%;
+    -fx-font-size: 16px;
+    -fx-background-color: red;
+    -fx-border-color: black;
+
+    -fx-font-weight: bold;
+    -fx-font-family:"Lucida Sans Unicode", Lucida Grande, sans-serif;
+
+}
+
+#skinLabel, #movesLabel, #playerLabel, #idLabel, #colorLabel,#scoreLabel ,#typeLabel, #moves1Label, #player1Label, #id1Label ,#score1Label, #type1Label, #animationCheckbox{
+    -fx-font-family: "Lucida Sans Unicode", Lucida Grande, sans-serif;
+    -fx-text-fill: whitesmoke;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+
+#color1Label {
+    -fx-font-family: "Lucida Sans Unicode", Lucida Grande, sans-serif;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+#boardScroller {
+    -fx-opacity: 80%;
+}
+
+#compMakingMoveLabel, #compLabel, #finalScoresLabel {
+
+    -fx-font-family: "Book Antiqua";
+    -fx-text-fill: lemonchiffon;
+    -fx-font-size: 16px;
+    -fx-font-weight: bolder;
+
+}
+
+#progressPercentLabel {
+    -fx-font-family: "sans-serif";
+    -fx-font-size: 12px;
+    -fx-text-fill: whitesmoke;
+    -fx-font-weight: bold;
+}
+
+#progressBar {
+
+    -fx-box-border: goldenrod;
+    -fx-accent: lightgreen;
+}
+
+#loadGameButton:pressed, #startGameButton:pressed, #restartButton:pressed, #performButton:pressed, #quitGameButton:pressed, #prevButton:pressed, #nextButton:pressed, #exitButton:pressed {
+    -fx-translate-y: 3px;
+}

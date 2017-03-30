@@ -1,0 +1,18 @@
+#boardButton {
+    -fx-border-radius: 20;
+    -fx-background-color: darkgray;
+    -fx-font-weight: bold;
+
+}
+
+#boardButton:hover {
+    -fx-background-color: yellowgreen;
+}
+
+
+#boardButtonSelected {
+    -fx-border-radius: 20;
+    -fx-background-color: lightgreen;
+    -fx-font-weight: bold;
+
+}

@@ -1,0 +1,74 @@
+#screenPane {
+    -fx-background-image: url("/resources/Blue_background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#performButton, #quitGameButton, #prevButton, #nextButton, #skin, #replayGame, #exitButton {
+    -fx-font-size: 12px;
+    -fx-background-color: whitesmoke;
+    -fx-opacity: 80%;
+    -fx-text-fill: mediumblue;
+    -fx-font-weight: bold;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-fill: #548081;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#loadGameButton, #startGameButton, #restartButton{
+    -fx-opacity: 80%;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+
+}
+
+#skinLabel, #movesLabel, #playerLabel, #idLabel, #colorLabel,#scoreLabel ,#typeLabel , #moves1Label, #player1Label, #id1Label ,#score1Label, #type1Label, #animationCheckbox{
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+
+#color1Label {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+
+    -fx-fill: lightseagreen;
+    -fx-stroke: firebrick;
+    -fx-stroke-width: 2px;
+
+}
+
+#boardScroller {
+    -fx-opacity: 70%;
+}
+
+
+#compMakingMoveLabel, #compLabel, #finalScoresLabel {
+
+    -fx-font-family: "Rockwell";
+    -fx-text-fill: azure;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+
+}
+
+#progressPercentLabel {
+    -fx-font-family: serif;
+    -fx-font-size: 12px;
+    -fx-text-fill: khaki;
+    -fx-font-weight: bold;
+}
+
+#progressBar {
+
+    -fx-box-border: goldenrod;
+    -fx-accent: lightgreen;
+}
+
+#loadGameButton:pressed, #startGameButton:pressed, #restartButton:pressed, #performButton:pressed, #quitGameButton:pressed, #prevButton:pressed, #nextButton:pressed, #exitButton:pressed {
+    -fx-translate-y: 3px;
+}
